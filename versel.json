@@ -8,11 +8,11 @@
     ],
     "routes": [
         {
-            "src": "/jobs",
+            "src": "/api/jobs",
             "dest": "/api/jobs.js"
         },
         {
-            "src": "/jobs/:id",
+            "src": "/api/jobs/:id",
             "dest": "/api/job.js"
         }
     ]
