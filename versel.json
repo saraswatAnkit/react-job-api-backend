@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "build": [
+        {
+            "src": "api/*.js",
+            "use": "@versel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/jobs",
+            "dest": "/api/jobs.js"
+        },
+        {
+            "src": "/jobs/:id",
+            "dest": "/api/job.js"
+        }
+    ]
+}
